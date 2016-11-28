@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="madLibIt">
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-route.min.js"></script>
+    <script src="app.js"></script>
+    <script src="madlibFactory.js"></script>
+    <script src="inputController.js"></script>
+    <script src="outputController.js"></script>
+
+
+
+  <title>MadLib It</title>
+
+  </head>
+  <body>
+    <nav>
+        <a href="#/input">Form </a>
+        <a href="#/output"> MadLib</a>
+    </nav>
+
+    <div ng-view="">
+
+    </div>
+
+    </div>
+
+  </body>
+</html>

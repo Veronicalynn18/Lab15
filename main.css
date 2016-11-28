@@ -1,0 +1,86 @@
+html{
+background-color: black ;
+	background: url('a.adams.png') no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ }
+
+ form{
+   text-align: center;
+  	max-width: 30%;
+  	border: 10px solid gray;
+  	height: 80%;
+  	margin: auto;
+  	margin-top: 0%;
+  	padding: 18px;
+  	background-color: #fff;
+  	border-radius: 20px;
+    overflow:scroll;
+    opacity: 0.9;
+ }
+ input {
+   padding: 4px;
+   width: 100%;
+   display: block;
+   margin: 4px auto 12px auto;
+   padding: 8px 10px;
+   font-family: monospace;
+   border: 1px solid #cccccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   background-color: #d9d9d9;
+ }
+
+p{
+ text-align: center;
+  max-width: 45%;
+  border: 10px solid gray;
+  height: 45%;
+  margin: auto;
+  margin-top: 5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow:scroll;
+  opacity: 0.9;
+}
+h4{
+text-align: center;
+ max-width: 40%;
+ border: 10px solid gray;
+ height: 20%;
+ margin: auto;
+ margin-top: 5%;
+ padding-bottom: 18px;
+ padding-top: 18px;
+ background-color: #fff;
+ border-radius: 20px;
+ overflow:scroll;
+ opacity: 0.9;
+}
+.words {
+  font-weight: bold;
+  color: #a800b7;
+}
+nav {
+  width: 30%;
+  margin: 25px auto 10px auto;
+  display: block;
+  border: 10px solid gray;
+  text-align: center;
+	background-color: #fff;
+  border-radius: 20px;
+  opacity: 0.9;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+	word-spacing: 2em;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
